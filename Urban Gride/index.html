@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanGrid Construction</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="UrbanGride-logo.webp" alt="UrbanGrid Logo" class="logo-image">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome To UrbanGrid</h1>
+            <h2>Building the Future, Restoring the Past</h2>
+            <p>Your Trusted Partner in Construction</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Residential Construction</h3>
+                <p>We build homes with precision and care.</p>
+            </div>
+            <div class="card">
+                <h3>Commercial Construction</h3>
+                <p>We deliver top-notch commercial projects.</p>
+            </div>
+            <div class="card">
+                <h3>Renovation Services</h3>
+                <p>Transform your space with our expert renovation services.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose-us" class="why-choose-us-section">
+        <h2>Why Choose Us?</h2>
+        <p>At UrbanGrid, we are committed to transforming your construction dreams into reality. We deliver quality that stands the test of time, combining innovation and craftsmanship to exceed your expectations.</p>
+        <ul>
+            <li><strong>Customer Satisfaction:</strong> Your satisfaction is our top priority, and we ensure transparency throughout the project.</li>
+            <li><strong>Environmentally Sustainable:</strong> We incorporate sustainable materials and practices in all our projects, contributing to a greener future.</li>
+            <li><strong>Timely Delivery:</strong> Our team works diligently to deliver projects on time without compromising on quality.</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Our Projects</h2>
+        <div class="project-gallery">
+            <div class="project-item">
+                <img src="project-1.jpeg" alt="Project 1">
+                <h3>Project 1</h3>
+            </div>
+            <div class="project-item">
+                <img src="project-2.jfif" alt="Project 2">
+                <h3>Project 2</h3>
+            </div>
+            <div class="project-item">
+                <img src="project-3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+            </div>
+            <div class="project-item">
+                <img src="project-4.webp" alt="Project 4">
+                <h3>Project 4</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+            <img src="team-1.jpg" alt="John Doe">
+            <h2>Adarsh Shukla </h2>
+            <p>Founder & CEO</p>
+            <p>Adarsh is the visionary behind UrbanGrid Construction with over 20 years of experience in the construction industry.</p>
+        </div>
+
+        <div class="team-member">
+            <img src="team-2.jpg" alt="Jane Smith">
+            <h2>Shaswat Shukla </h2>
+            <p>Chief Architect</p>
+            <p>Shaswat leads our architectural design team, bringing creative and sustainable solutions to every project.</p>
+        </div>
+
+        <div class="team-member">
+            <img src="team-3.jpg" alt="Robert Brown">
+            <h2>Sharad Pandey</h2>
+            <p>Project Manager</p>
+            <p>Sharad ensures that all projects are delivered on time, within scope, and budget.</p>
+        </div>
+
+        <div class="team-member">
+            <img src="team-4.jpg" alt="Emily White">
+            <h2>Akash Paswan</h2>
+            <p>Head of Marketing</p>
+            <p>Akash handles all our marketing strategies and client communications.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>UrbanGrid is a leading construction company with a passion for building high-quality structures that stand the test of time. Our team of experts is dedicated to delivering exceptional results on every project.</p>
+        <div class="company-info">
+            <p><strong>Owner:</strong> Mr. Adarsh Shukla</p>
+            <p><strong>Phone:</strong> +916388653050 / +917388550727</p>
+            <p><strong>Company Values:</strong> Excellence, Integrity, Innovation</p>
+            <p><strong>Employees:</strong> 50+</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Our Clients Say</h2>
+        <p>"UrbanGrid transformed our vision into reality. Their team was professional, reliable, and delivered a high-quality project on time. We couldn’t be happier with the results!" – Client A</p>
+        <p>"The team at UrbanGrid was fantastic to work with. They kept us updated throughout the entire process and ensured that every detail was perfect." – Client B</p>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="70c14918-81cb-4896-a629-9315dc1cbef0">
+            
+            <label for="name">Name:</label> 
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+        <div id="formMessage" style="display:none;">Thank you! Your message has been sent.</div>
+    </section>
+    
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/918097618731?text=Hello%20UrbanGrid%20Team,%20I%20would%20like%20to%20inquire%20about%20your%20services"
+       class="whatsapp-button" target="_blank">
+        <img src="whatapp-logo.jpg" alt="WhatsApp Logo">
+    </a>
+
+    <footer>
+        <p>&copy; 2024 UrbanGrid Construction. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
